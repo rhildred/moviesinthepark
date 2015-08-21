@@ -1,0 +1,17 @@
+{
+    "name": "rhildred/moviesinthepark",
+    "description": "Responsive Web Exercise",
+    "type": "project",
+    "require": {
+        "slim/slim": "2.x",
+        "rhildred/slimphpviews": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rhildred",
+            "email": "rhildred@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,92 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "9e167626345170938d7793e3d03a5063",
+    "packages": [
+        {
+            "name": "rhildred/slimphpviews",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rhildred/slimphpviews.git",
+                "reference": "3a6645c672d0c011f774221f282f8aafa9d42ddc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rhildred/slimphpviews/zipball/3a6645c672d0c011f774221f282f8aafa9d42ddc",
+                "reference": "3a6645c672d0c011f774221f282f8aafa9d42ddc",
+                "shasum": ""
+            },
+            "require": {
+                "slim/slim": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PHPView": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2015-08-21 03:11:44"
+        },
+        {
+            "name": "slim/slim",
+            "version": "2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/slimphp/Slim.git",
+                "reference": "faf83069298593bdfd8482a14bda171937473fc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/slimphp/Slim/zipball/faf83069298593bdfd8482a14bda171937473fc1",
+                "reference": "faf83069298593bdfd8482a14bda171937473fc1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "suggest": {
+                "ext-mcrypt": "Required for HTTP cookie encryption"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Slim": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Lockhart",
+                    "email": "info@joshlockhart.com",
+                    "homepage": "http://www.joshlockhart.com/"
+                }
+            ],
+            "description": "Slim Framework, a PHP micro framework",
+            "homepage": "http://github.com/codeguy/Slim",
+            "keywords": [
+                "microframework",
+                "rest",
+                "router"
+            ],
+            "time": "2015-08-03 07:11:55"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "rhildred/slimphpviews": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
