@@ -5,6 +5,7 @@
         "This file is @generated automatically"
     ],
     "hash": "9e167626345170938d7793e3d03a5063",
+    "content-hash": "c1594c6e656f291571881ecd4116cbbc",
     "packages": [
         {
             "name": "rhildred/slimphpviews",
